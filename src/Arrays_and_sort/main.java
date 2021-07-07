@@ -39,6 +39,13 @@ public class main {
         startTime();
         insertSort();
         endTime();
+        //ArraySort
+        setInitArray();
+        System.out.println("ArraySort method");
+        startTime();
+        Arrays.sort(arr);
+        endTime();
+
     }
     public static void fillArr()
     {
